@@ -34,9 +34,3 @@ test('test 3', async ({ page }) => {
   const createOrder = page.getByText('Create orderOrder×Order has')
   await expect(createOrder).toBeVisible()
 })
-
-test('completely different website', async ({ page }) => {
-  await page.goto('https://www.huurwoningen.nl/')
-  const login = page.getByText('Login')
-  await expect(login).toBeVisible()
-})
