@@ -1,6 +1,5 @@
 import { expect, test } from '@playwright/test'
 import { SERVICE_URL } from '../../../config/env-data'
-import assert from 'node:assert'
 
 test('test 1', async ({ page }) => {
   await page.goto(SERVICE_URL)
