@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "playwright test",
+    "debug": "playwright test --debug",
     "format": "prettier --write \"tests/**/*.{ts,tsx,js,jsx,json,css,md}\"",
     "check": "prettier --check \"tests/**/*.{ts,tsx,js,jsx,json,css,md}\"",
     "lint": "eslint \"tests/**/*.{ts,tsx,js,jsx}\""
