@@ -14,7 +14,6 @@ export class LoginPage {
     this.usernameField = page.getByTestId('username-input')
     this.passwordField = page.getByTestId('password-input')
     this.signInButton = page.getByTestId('signIn-button')
-
   }
 
   async open() {

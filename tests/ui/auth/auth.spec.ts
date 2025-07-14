@@ -39,5 +39,4 @@ test('completely different website', async ({ page }) => {
   await page.goto('https://www.huurwoningen.nl/')
   const login = page.getByText('Login')
   await expect(login).toBeVisible()
-
 })

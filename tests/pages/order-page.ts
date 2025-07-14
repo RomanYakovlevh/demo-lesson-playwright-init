@@ -4,7 +4,7 @@ export class OrderPage {
   readonly page: Page
   readonly statusButton: Locator
   readonly clientName: Locator
-  readonly clientPhone:Locator
+  readonly clientPhone: Locator
   readonly createOrderButton: Locator
   readonly okButton: Locator
 
